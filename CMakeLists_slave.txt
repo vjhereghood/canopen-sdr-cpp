@@ -1,0 +1,5 @@
+# CMakeLists.txt for slave
+cmake_minimum_required(VERSION 3.10)
+project(SDRSlave)
+
+add_executable(sdr_slave sdr_slave.cpp slave_main.cpp)

@@ -1,12 +1,11 @@
-// Complete SDR Slave implementation for CANopen
+// sdr_slave.hpp
 #ifndef SDR_SLAVE_HPP
 #define SDR_SLAVE_HPP
 
-class SdrSlave {
+class SDRSlave {
 public:
-    // Initialization and other methods
-    void init();
-    void process();
+    void start();
+    void stop();
 };
 
 #endif // SDR_SLAVE_HPP
